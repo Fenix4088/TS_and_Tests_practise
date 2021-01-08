@@ -3,6 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {testObj} from "./10-immutability/10_01";
+
+const a = {...testObj};
+
+
 
 ReactDOM.render(
   <React.StrictMode>
